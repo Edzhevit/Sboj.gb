@@ -14,10 +14,15 @@ The **Database** of the **Sboj.gb** application needs to support **2 entities**:
 
 ## Functional Requirements
 The Functionality Requirements describe the functionality that the Application must support.
+
 The application should provide **Guest** (not logged in) users with the functionality to login, register and view the Index page.
+
 The application should provide **Users** (logged in) with the functionality to logout, create a Job, view details about a Job, delete a Job, and view all Jobs (Home page).
+
 The application should provide functionality for adding jobs with only 5 sectors – “Medicine”, “Car”, “Food”, “Domestic”, “Security”.
+
 The application should store its data into a MySQL database, using Hibernate native.
+
 ## Security Requirements
 The Security Requirements are mainly access requirements. Configurations about which users can access specific functionalities and pages.
 * Guest (not logged in) users can access Index page.
